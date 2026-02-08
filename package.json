@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "homepage": "https://YOUR_GITHUB_USERNAME.github.io/love-language-game",
+  "homepage": "https://Ama-Dziedzom.github.io/love-language-game",
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
     "framer-motion": "^12.31.0",
