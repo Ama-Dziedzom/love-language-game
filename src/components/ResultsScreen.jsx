@@ -4,6 +4,7 @@ import { ArrowRight02Icon, Cancel01Icon, Copy01Icon, Share08Icon } from 'hugeico
 import { loveLanguages } from '../data/questions';
 import welcomeShield from '../assets/stanbic-welcome-shield.png';
 import syncedIcon from '../assets/synced.png';
+import appBg from '../assets/app-bg.png';
 
 const ResultsScreen = ({ results, onRetake }) => {
     const primaryLanguage = loveLanguages[results.primary];
@@ -21,7 +22,7 @@ const ResultsScreen = ({ results, onRetake }) => {
         .sort((a, b) => b.value - a.value)
         .slice(0, 4);
 
-    const shareText = `I just discovered my Love Language is "${primaryLanguage.name}"! Find yours with Stanbic Bank Ghana 💝`;
+    const shareText = `I just discovered my Love Language is "${primaryLanguage.name}"! Find yours with Stanbic Bank Ghana`;
     const shareUrl = window.location.href;
 
     const handleShare = () => {
@@ -283,7 +284,7 @@ const ResultsScreen = ({ results, onRetake }) => {
                             className="fixed bottom-0 left-0 right-0 z-50 rounded-t-[36px] border-t border-white/20"
                             style={{
                                 paddingBottom: 'max(env(safe-area-inset-bottom), 32px)',
-                                backgroundImage: 'url("/src/assets/app-bg.png")',
+                                backgroundImage: `url(${appBg})`,
                                 backgroundColor: '#001a47',
                                 backgroundSize: 'cover',
                                 backgroundPosition: 'center bottom'

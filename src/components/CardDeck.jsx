@@ -1,6 +1,7 @@
 import { motion, useMotionValue, useTransform, animate, AnimatePresence } from 'framer-motion';
 import { useState, useEffect } from 'react';
 import FlickIcon from '../assets/Flick-icon.png';
+import ContainerIcon from '../assets/Container.png';
 
 const CardDeck = ({ question, questionNumber, totalQuestions, onAnswer, onBack }) => {
     const [selectedOption, setSelectedOption] = useState(null);
@@ -110,7 +111,7 @@ const CardDeck = ({ question, questionNumber, totalQuestions, onAnswer, onBack }
                                 <div className="answer-prefix-wrapper">
                                     {selectedOption === option.id ? (
                                         <img
-                                            src="/Container.png"
+                                            src={ContainerIcon}
                                             alt="Selected"
                                             className="selected-prefix-icon"
                                         />
