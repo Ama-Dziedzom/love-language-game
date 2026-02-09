@@ -507,6 +507,9 @@ body {
 }
 
 @media (min-width: 1024px) {
+  body {
+    background-position: center top;
+  }
   .question-card {
     max-width: 600px;
     padding: 64px 48px;

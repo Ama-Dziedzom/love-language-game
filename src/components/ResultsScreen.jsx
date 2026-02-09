@@ -171,7 +171,7 @@ const ResultsScreen = ({ results, onRetake }) => {
                                 {primaryLanguage.tips.map((tip, index) => (
                                     <motion.div
                                         key={index}
-                                        className="flex items-start group"
+                                        className="flex items-start justify-center group"
                                         style={{ gap: '10px' }}
                                         initial={{ opacity: 0, x: -10 }}
                                         animate={{ opacity: 1, x: 0 }}
@@ -180,7 +180,7 @@ const ResultsScreen = ({ results, onRetake }) => {
                                         <div className="w-4 h-4 rounded-lg bg-white/10 flex items-center justify-center flex-shrink-0 group-hover:bg-[#7eb3ff]/20 transition-colors" style={{ marginTop: '2px' }}>
                                             <div className="w-1 h-1 rounded-full bg-[#7eb3ff]" />
                                         </div>
-                                        <p className="text-white/80 font-medium text-left" style={{ fontSize: '13px', lineHeight: '1.5' }}>
+                                        <p className="text-white/80 font-medium text-center" style={{ fontSize: '13px', lineHeight: '1.5' }}>
                                             {tip}
                                         </p>
                                     </motion.div>
