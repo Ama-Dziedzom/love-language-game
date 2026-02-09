@@ -11,7 +11,7 @@ const ResultsScreen = ({ results, onRetake }) => {
     const [showShareModal, setShowShareModal] = useState(false);
     const [showCopiedToast, setShowCopiedToast] = useState(false);
 
-    // Filter out the primary result and show the next 4 love languages
+    // Filter out the primary result and show the next 2 love languages
     const sortedScores = Object.keys(loveLanguages)
         .filter(key => key !== results.primary)
         .map(key => ({
@@ -20,7 +20,7 @@ const ResultsScreen = ({ results, onRetake }) => {
             ...loveLanguages[key]
         }))
         .sort((a, b) => b.value - a.value)
-        .slice(0, 4);
+        .slice(0, 2);
 
     const shareText = `I just discovered my Love Language is "${primaryLanguage.name}"! Find yours with Stanbic Bank Ghana`;
     const shareUrl = window.location.href;
