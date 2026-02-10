@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/love-language-game/',  // GitHub Pages base path
+  base: '/',
   server: {
     allowedHosts: true,
     cors: true
