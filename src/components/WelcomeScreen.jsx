@@ -18,7 +18,7 @@ const WelcomeScreen = ({ onStart }) => {
                 <img src={welcomeShield} style={{ position: 'absolute', bottom: '10%', right: '-10%', width: '250px', transform: 'rotate(10deg)' }} alt="" />
             </div>
 
-            <div className="welcome-content" style={{ zIndex: 10, position: 'relative' }}>
+            <div className="welcome-content" style={{ zIndex: 10, position: 'relative', width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 <motion.div
                     className="logo-shield-container"
                     initial={{ scale: 0.8, opacity: 0 }}
@@ -36,7 +36,7 @@ const WelcomeScreen = ({ onStart }) => {
                     />
                 </motion.div>
 
-                <div className="text-frame welcome-text-frame">
+                <div className="text-frame welcome-text-frame" style={{ width: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                     <motion.h1
                         className="hero-title welcome-hero-title"
                         initial={{ opacity: 0, y: 20 }}
@@ -44,7 +44,7 @@ const WelcomeScreen = ({ onStart }) => {
                         transition={{ delay: 0.4, duration: 0.8 }}
                         style={{ fontWeight: 900 }}
                     >
-                        <span style={{ display: 'block', whiteSpace: 'nowrap' }}>Discover How You Actually</span>
+                        <span style={{ whiteSpace: 'nowrap', width: 'max-content' }}>Discover How You Actually</span>
                         <span className="accent-text">Want To Be Loved.</span>
                     </motion.h1>
 

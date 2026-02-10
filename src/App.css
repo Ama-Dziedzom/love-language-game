@@ -171,8 +171,15 @@ body {
   color: white;
   -webkit-text-fill-color: initial;
   font-weight: 900;
-  font-size: clamp(24px, 8vw, 40px);
+  font-size: clamp(18px, 7.2vw, 38px);
   line-height: 1.2;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
 }
 
 .accent-text {
@@ -674,7 +681,7 @@ body {
   color: var(--stanbic-blue);
   border: none;
   border-radius: 100px;
-  font-size: 1 rem;
+  font-size: 1rem;
   font-weight: 800;
   letter-spacing: 1.5px;
   cursor: pointer;
