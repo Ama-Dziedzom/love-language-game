@@ -43,8 +43,8 @@ const WelcomeScreen = ({ onStart }) => {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.8 }}
                     >
-                        Master Your<br />
-                        <span className="accent-text">Heart's Wealth.</span>
+                        Discover How You Actually<br />
+                        <span className="accent-text">Want To Be Loved.</span>
                     </motion.h1>
 
                     <motion.p
@@ -53,7 +53,7 @@ const WelcomeScreen = ({ onStart }) => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.6, duration: 1 }}
                     >
-                        Stanbic Bank Ghana invites you to an exclusive discovery. Learn how you transact love in 10 purposeful questions.
+                        Whether you crave <strong>“high-interest”</strong> or <strong>“tangible”</strong> gestures, knowing your style is the ultimate connection hack
                     </motion.p>
                 </div>
 
@@ -80,7 +80,7 @@ const WelcomeScreen = ({ onStart }) => {
                     animate={{ opacity: 0.7 }}
                     transition={{ delay: 1.2 }}
                 >
-                    Secure • Insightful • Innovative
+                    One Quick Game • Zero Guesswork • Let’s Play
                 </motion.div>
             </div>
         </motion.div>

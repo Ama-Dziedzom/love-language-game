@@ -56,12 +56,12 @@ const HypeScreen = ({ onContinue }) => {
                         transition={{ delay: 0.5 }}
                     >
                         <h1 className="hype-title-massive">
-                            Exquisite.<br />
-                            <span style={{ color: 'var(--stanbic-blue-light)' }}>Halfway There.</span>
+                            Something Special<br />
+                            <span style={{ color: 'var(--stanbic-blue-light)' }}>Loading,</span>
+                            50%
                         </h1>
                         <p className="hype-desc">
-                            Your heart's logic is becoming clear.<br />
-                            Let's finalize your premium profile.
+                            We already see what makes you feel special. A few more heart-to-heart choices to unlock your results<br />
                         </p>
                     </motion.div>
 
