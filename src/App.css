@@ -170,6 +170,9 @@ body {
   background: none;
   color: white;
   -webkit-text-fill-color: initial;
+  font-weight: 900;
+  font-size: clamp(24px, 8vw, 40px);
+  line-height: 1.2;
 }
 
 .accent-text {
@@ -211,7 +214,6 @@ body {
   letter-spacing: 3px;
   color: white;
   font-weight: 500;
-  text-transform: uppercase;
   opacity: 0.7;
 }
 
@@ -510,6 +512,7 @@ body {
   body {
     background-position: center top;
   }
+
   .question-card {
     max-width: 600px;
     padding: 64px 48px;
@@ -671,7 +674,7 @@ body {
   color: var(--stanbic-blue);
   border: none;
   border-radius: 100px;
-  font-size: 1.1rem;
+  font-size: 1 rem;
   font-weight: 800;
   letter-spacing: 1.5px;
   cursor: pointer;
@@ -822,12 +825,12 @@ body {
 }
 
 .hype-title-massive {
-  font-size: clamp(3rem, 12vw, 4.5rem);
+  font-size: clamp(1.6rem, 9vw, 3.2rem);
   font-weight: 900;
-  line-height: 1;
+  line-height: 1.1;
   color: white;
-  margin-bottom: 1.5rem;
-  letter-spacing: -0.03em;
+  margin-bottom: 1rem;
+  letter-spacing: -0.02em;
 }
 
 .title-thin {

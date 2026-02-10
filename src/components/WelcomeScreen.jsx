@@ -42,8 +42,9 @@ const WelcomeScreen = ({ onStart }) => {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.8 }}
+                        style={{ fontWeight: 900 }}
                     >
-                        Discover How You Actually<br />
+                        <span style={{ display: 'block', whiteSpace: 'nowrap' }}>Discover How You Actually</span>
                         <span className="accent-text">Want To Be Loved.</span>
                     </motion.h1>
 

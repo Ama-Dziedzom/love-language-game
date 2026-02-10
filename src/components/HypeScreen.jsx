@@ -56,9 +56,8 @@ const HypeScreen = ({ onContinue }) => {
                         transition={{ delay: 0.5 }}
                     >
                         <h1 className="hype-title-massive">
-                            Something Special<br />
-                            <span style={{ color: 'var(--stanbic-blue-light)' }}>Loading,</span>
-                            50%
+                            <span style={{ display: 'block' }}>Something Special</span>
+                            <span style={{ color: 'var(--stanbic-blue-light)' }}>Loading,</span> 50%
                         </h1>
                         <p className="hype-desc">
                             We already see what makes you feel special. A few more heart-to-heart choices to unlock your results<br />
@@ -82,7 +81,7 @@ const HypeScreen = ({ onContinue }) => {
                         animate={{ opacity: 1, scale: 1 }}
                         transition={{ delay: 1.5 }}
                     >
-                        <button className="cta-button" onClick={onContinue} style={{ background: 'white', color: 'var(--stanbic-blue)', borderRadius: '100px', padding: '1rem 2rem', margin: '0.5rem auto 5rem', width: 'fit-content', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                        <button className="cta-button" onClick={onContinue} style={{ background: 'white', color: 'var(--stanbic-blue)', borderRadius: '100px', padding: '1rem 2rem', margin: '0.5rem auto 5rem', width: 'fit-content', display: 'flex', alignItems: 'center', gap: '8px', fontWeight: '700' }}>
                             <span>Continue Journey</span>
                             <ArrowRight02Icon size={20} variant="stroke" />
                         </button>
