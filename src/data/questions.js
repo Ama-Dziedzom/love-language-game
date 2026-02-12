@@ -1,46 +1,46 @@
 export const questions = [
   {
     id: 1,
-    question: "Love, to you, is best expressed when someone...",
+    question: "You feel loved when someone…",
     options: [
-      { id: 'A', text: "Says reassuring words", language: 'words' },
-      { id: 'B', text: "Shows up consistently ", language: 'time' },
-      { id: 'C', text: "Helps without being asked", language: 'service' },
-      { id: 'D', text: "Gives with intention", language: 'gifts' },
-      { id: 'E', text: "Stays physically close", language: 'touch' },
+      { id: 'A', text: "Hypes you up all the time", language: 'words' },
+      { id: 'B', text: "Always wants to spend time with you", language: 'time' },
+      { id: 'C', text: "Handles your errands so you can relax", language: 'service' },
+      { id: 'D', text: "Randomly sends MoMo “just because”", language: 'gifts' },
+      { id: 'E', text: "Pulls you in for a hug", language: 'touch' },
     ]
   },
   {
     id: 2,
-    question: "Your ideal Valentine’s day looks like...",
+    question: "Your ideal Valentine’s day is…",
     options: [
-      { id: 'A', text: "A heartfelt note and being told I’m loved", language: 'words' },
-      { id: 'B', text: "A full day together", language: 'time' },
-      { id: 'C', text: "My partner handling everything", language: 'service' },
-      { id: 'D', text: "A thoughtful gift I’ll remember", language: 'gifts' },
-      { id: 'E', text: "Intimacy and closeness", language: 'touch' },
+      { id: 'A', text: "Being told how much you’re loved", language: 'words' },
+      { id: 'B', text: "Staying in and watching a movie together", language: 'time' },
+      { id: 'C', text: "My partner cooking all meals for the day", language: 'service' },
+      { id: 'D', text: "A box of chocolate with roses", language: 'gifts' },
+      { id: 'E', text: "A message by your partner", language: 'touch' },
     ]
   },
   {
     id: 3,
-    question: "When you’ve had a long day, what helps most?",
+    question: "After a long day, you just want to hear",
     options: [
-      { id: 'A', text: "Reassuring words", language: 'words' },
-      { id: 'B', text: "Sitting with someone who listens", language: 'time' },
-      { id: 'C', text: "My partner handling dinner", language: 'service' },
-      { id: 'D', text: "A small treat or surprise", language: 'gifts' },
-      { id: 'E', text: "Physical comfort", language: 'touch' },
+      { id: 'A', text: "You did well today", language: 'words' },
+      { id: 'B', text: "Let’s go for a night drive", language: 'time' },
+      { id: 'C', text: "Don't worry, I've handled all your chores", language: 'service' },
+      { id: 'D', text: "Let’s go shopping", language: 'gifts' },
+      { id: 'E', text: "Come for a hug", language: 'touch' },
     ]
   },
   {
     id: 4,
-    question: "What affects you most when missing from a relationship?",
+    question: "What's the biggest red flag in a relationship?",
     options: [
-      { id: 'A', text: "Lack of reassurance", language: 'words' },
+      { id: 'A', text: "Lack of communication", language: 'words' },
       { id: 'B', text: "Not enough time together", language: 'time' },
-      { id: 'C', text: "No effort or follow-through", language: 'service' },
-      { id: 'D', text: "Thoughtless or no gestures", language: 'gifts' },
-      { id: 'E', text: "Little to no affection", language: 'touch' },
+      { id: 'C', text: "Empty promises", language: 'service' },
+      { id: 'D', text: "Never gets you anything", language: 'gifts' },
+      { id: 'E', text: "No physical affection", language: 'touch' },
     ]
   },
   {
@@ -49,64 +49,64 @@ export const questions = [
     options: [
       { id: 'A', text: "A genuine compliment", language: 'words' },
       { id: 'B', text: "An unexpected hangout", language: 'time' },
-      { id: 'C', text: "Someone running an errand for you", language: 'service' },
-      { id: 'D', text: "A small surprise", language: 'gifts' },
-      { id: 'E', text: "A quick cuddle", language: 'touch' },
+      { id: 'C', text: "Something you complained about being fixed", language: 'service' },
+      { id: 'D', text: "A food/snack delivery", language: 'gifts' },
+      { id: 'E', text: "A cuddle before bed", language: 'touch' },
     ]
   },
   {
     id: 6,
-    question: "What makes an apology feel sincere to you?",
+    question: "When you’re away from your partner, what do you miss the most?",
     options: [
-      { id: 'A', text: "Saying the right words", language: 'words' },
-      { id: 'B', text: "Sitting down to talk it through", language: 'time' },
-      { id: 'C', text: "Fixing what went wrong", language: 'service' },
-      { id: 'D', text: "Making it up with a gesture", language: 'gifts' },
-      { id: 'E', text: "A comforting touch", language: 'touch' },
+      { id: 'A', text: "The long gist sessions", language: 'words' },
+      { id: 'B', text: "Having them around all the time", language: 'time' },
+      { id: 'C', text: "Getting help on things you need done", language: 'service' },
+      { id: 'D', text: "The surprise gifts they buy", language: 'gifts' },
+      { id: 'E', text: "Falling asleep next to them", language: 'touch' },
     ]
   },
   {
     id: 7,
     question: "You feel appreciated at work when?",
     options: [
-      { id: 'A', text: "Your effort is acknowledged", language: 'words' },
-      { id: 'B', text: "People check in on you", language: 'time' },
-      { id: 'C', text: "Help shows up when needed", language: 'service' },
-      { id: 'D', text: "You’re rewarded meaningfully", language: 'gifts' },
-      { id: 'E', text: "The environment feels warm and friendly", language: 'touch' },
+      { id: 'A', text: "Your manager praises your hard work", language: 'words' },
+      { id: 'B', text: "Coworkers check in on you", language: 'time' },
+      { id: 'C', text: "Someone does a task you’ve meaning to do", language: 'service' },
+      { id: 'D', text: "More money in your account", language: 'gifts' },
+      { id: 'E', text: "Applause and high-fives", language: 'touch' },
     ]
   },
   {
     id: 8,
-    question: "If someone truly understands you, they…",
+    question: "How does a partner prove they’re “all in” on the relationship?",
     options: [
-      { id: 'A', text: "Know what to say", language: 'words' },
-      { id: 'B', text: "Know when to be present", language: 'time' },
-      { id: 'C', text: "Know how to help", language: 'service' },
-      { id: 'D', text: "Know what matters to you", language: 'gifts' },
-      { id: 'E', text: "Know when to be close", language: 'touch' },
+      { id: 'A', text: "Always says “I love you”", language: 'words' },
+      { id: 'B', text: "Date night once a week", language: 'time' },
+      { id: 'C', text: "Randomly pays your bills", language: 'service' },
+      { id: 'D', text: "Buys your favourite things", language: 'gifts' },
+      { id: 'E', text: "Public display of affection", language: 'touch' },
     ]
   },
   {
     id: 9,
-    question: "When a friend is feeling down, you usually…",
+    question: "When a friend is feeling down, you would…",
     options: [
-      { id: 'A', text: "Send an encouraging message or note", language: 'words' },
-      { id: 'B', text: "Make time to sit and talk with them", language: 'time' },
-      { id: 'C', text: "Help them with something practical", language: 'service' },
-      { id: 'D', text: "Bring them a little gift or treat", language: 'gifts' },
-      { id: 'E', text: "Give them a hug or hold their hand", language: 'touch' },
+      { id: 'A', text: "Lift them up with jokes", language: 'words' },
+      { id: 'B', text: "Take them out for lunch", language: 'time' },
+      { id: 'C', text: "Help them sort out the issue", language: 'service' },
+      { id: 'D', text: "Buy them food or send MoMo", language: 'gifts' },
+      { id: 'E', text: "Give them a hug", language: 'touch' },
     ]
   },
   {
     id: 10,
-    question: "How do you show appreciation for someone?",
+    question: "If you had to receive one “token of love” which would it be?",
     options: [
-      { id: 'A', text: "Tell them you’re proud or thankful", language: 'words' },
-      { id: 'B', text: "Spend uninterrupted time with them", language: 'time' },
-      { id: 'C', text: "Do something helpful without being asked", language: 'service' },
-      { id: 'D', text: "Surprise them with a thoughtful gesture", language: 'gifts' },
-      { id: 'E', text: "Make physical closeness part of the moment", language: 'touch' },
+      { id: 'A', text: "A long “Reasons why I love you” list", language: 'words' },
+      { id: 'B', text: "Weekend getaway", language: 'time' },
+      { id: 'C', text: "“Get out of chores free” card", language: 'service' },
+      { id: 'D', text: "Gift vouchers", language: 'gifts' },
+      { id: 'E', text: "A shirt that smells like them", language: 'touch' },
     ]
   }
 ];
