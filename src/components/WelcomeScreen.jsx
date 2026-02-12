@@ -44,8 +44,8 @@ const WelcomeScreen = ({ onStart }) => {
                         transition={{ delay: 0.4, duration: 0.8 }}
                         style={{ fontWeight: 900 }}
                     >
-                        <span style={{ whiteSpace: 'nowrap', width: 'max-content' }}>Discover How You Actually</span>
-                        <span className="accent-text">Want To Be Loved.</span>
+                        <span style={{ whiteSpace: 'nowrap', width: 'max-content' }}>Love Looks Different On</span>
+                        <span className="accent-text">Everyone</span>
                     </motion.h1>
 
                     <motion.p
@@ -54,7 +54,7 @@ const WelcomeScreen = ({ onStart }) => {
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.6, duration: 1 }}
                     >
-                        Whether you crave <strong>“high-interest”</strong> or <strong>“tangible”</strong> gestures, knowing your style is the ultimate connection hack
+                        Whether it's gifts, time together or reassurance, knowing your love language is the ultimate hack.
                     </motion.p>
                 </div>
 
@@ -70,7 +70,7 @@ const WelcomeScreen = ({ onStart }) => {
                         className="cta-button welcome-cta"
                         onClick={onStart}
                     >
-                        Begin Journey
+                        Let's find yours!
                         <ArrowRight02Icon size={20} variant="stroke" />
                     </button>
                 </motion.div>
